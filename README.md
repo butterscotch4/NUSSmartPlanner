@@ -1,5 +1,4 @@
 # NUSSmartPlanner
-Orbital Project - Android App Planner 
 
 <img src="NUSSmartPlanner.png" width="800"><br>
 
