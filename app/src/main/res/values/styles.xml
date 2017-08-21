@@ -1,0 +1,31 @@
+<resources>
+    <style name="AgendaCalendarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- android:textColorPrimary is the  color of the title text
+       in the Toolbar, in the Theme.AppCompat theme:  -->
+        <item name="android:textColorSecondary">#00537F</item>
+        <item name="android:textColor">#00537F</item>
+        <item name="android:textColorPrimary">#00537F</item>
+        <item name="android:textColorTertiary">#00537F</item>
+        <item name="android:popupBackground">@android:color/holo_blue_light</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/background_dark</item>
+        <item name="android:textColorPrimary">@android:color/background_dark</item>
+    </style>
+
+    <style name="AgendaClanderTheme2" parent="AgendaCalendarTheme" >
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+
+</resources>

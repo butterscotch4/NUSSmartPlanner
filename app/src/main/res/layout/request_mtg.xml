@@ -1,0 +1,94 @@
+<LinearLayout xmlns:agendaCalendar="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/orange1">>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="Meeting Request"
+        android:textAllCaps="true"
+        android:textColor="@color/blue_dark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"
+        android:ems="10"
+        android:id="@+id/start_date_text"
+        android:textColor="@color/blue_dark"
+        android:gravity="center_horizontal"
+        android:hint="Start Time"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"
+        android:ems="10"
+        android:id="@+id/end_date_text"
+        android:textColor="@color/blue_dark"
+        android:gravity="center_horizontal"
+        android:hint="End Time"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/description_text"
+        android:textColor="@color/blue_dark"
+        android:gravity="center_horizontal"
+        android:hint="Description"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/location_text"
+        android:textColor="@color/blue_dark"
+        android:gravity="center_horizontal"
+        android:hint="Location"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Request"
+        android:textColor="@android:color/white"
+        android:background="@color/blue_dark"
+        android:onClick="addThenSend"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="80dp"
+        />
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Use dd/MM/yyyy HH:mm format for all time"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
